@@ -21,7 +21,7 @@ for i in range(5):
         print("ERROR: Integer must be supplied")
     else:
         if not input_value.isdigit():
-            # Since isdigit detects digits, we can infer that if all characters are digits it must be a positive integer.
+            # Since .isdigit() detects digits, we can infer that if all characters are digits it must be a positive integer.
             print("ERROR: Input must be a positive integer.")
         else:
             integer = int(input_value)
