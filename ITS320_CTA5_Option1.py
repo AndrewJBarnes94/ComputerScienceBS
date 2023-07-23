@@ -23,9 +23,8 @@ def concatonate_and_reverse_strings(string_1, string_2, string_3):
     return reversed_string
 
 strings = []
-amount_of_strings = 3
 
-for i in range(amount_of_strings):
+for i in range(3):
     string = input("Enter a string of text: ")
     if string == "":
         print("ERROR: A string must be supplied")
