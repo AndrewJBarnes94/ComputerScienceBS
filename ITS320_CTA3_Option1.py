@@ -42,7 +42,7 @@ if 1962 <= year <= 1964:
     value = 18_500
 if 1965 <= year <= 1968:
     value = 6_000
-if 1968 <= year <= 1971:
+if 1969 <= year <= 1971:
     value = 12_000
 if 1972 <= year <= 1975:
     value = 48_000

@@ -15,23 +15,31 @@
 #--------------------------------------------------------------------------------
 # Program Inputs: Three Strings
 # Program Outputs: A concatonations of the three strings in reverse
+#--------------------------------------------------------------------------------
 print("Reverse & Concatonate Three Strings")
 
-def concatonate_and_reverse_strings(string_1, string_2, string_3):
-    concatonate_strings = string_1 + string_2 + string_3
-    reversed_string = concatonate_strings[::-1]
+def concatonate_and_reverse_strings(strings):
+    string = ""
+
+    for txt in strings:
+        string += txt
+
+    reversed_string = string[::-1]
     return reversed_string
 
 strings = []
+amount_of_strings = 3   # Change this number if you want to reverse more/less than 3 strings.
 
-for i in range(3):
+for i in range(amount_of_strings):
     string = input("Enter a string of text: ")
+
     if string == "":
         print("ERROR: A string must be supplied")
     else:
         strings.append(string)
 
-result = concatonate_and_reverse_strings(strings[0], strings[1], strings[2])
+result = concatonate_and_reverse_strings(strings)
+
 print(f"Result: {result}")
 
 print("End Program")
