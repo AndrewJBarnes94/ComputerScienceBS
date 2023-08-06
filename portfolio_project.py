@@ -17,6 +17,8 @@
 #                their session.
 #--------------------------------------------------------------------------------
 
+# 1. Define the Automobile class with private attributes: make, model,
+#    color, year, and mileage.
 class Automobile:
     def __init__(self, make, model, color, year, mileage):
         self.make = make
@@ -25,6 +27,9 @@ class Automobile:
         self.year = year
         self.mileage = mileage
 
+# 2. Define the CarDealership class to manage the vehicle inventory with 
+#    methods for adding, removing, updating vehicles, and exporting 
+#    the inventory to a text file.
 class CarDealership:
     def __init__(self):
         self.vehicles = []
@@ -53,6 +58,8 @@ class CarDealership:
             for vehicle in self.vehicles:
                 file.write(f"{vehicle.make},{vehicle.model},{vehicle.color},{vehicle.year},{vehicle.mileage}\n")
 
+# Making the code less repetative in the user interface by implementing
+# a get_integer_input() and get_vehicle_input() function
 def get_integer_input(prompt):
     while True:
         try:
@@ -69,6 +76,8 @@ def get_vehicle_input():
     mileage = get_integer_input("Enter the mileage: ")
     return make, model, color, year, mileage
 
+# 3. Implement user interface for interacting with the inventory: adding, 
+#    removing, updating vehicles, and exporting the inventory.
 def main():
     car_dealership = CarDealership()
 
@@ -111,6 +120,8 @@ def main():
         elif choice == "4":
             car_dealership.list_vehicles()
         
+#       4. Allow the user to export the inventory to a text file at the end of 
+#          their session.
         elif choice == "5":
             filename = input("Enter the filename to export: ")
             car_dealership.export_to_file(filename)
