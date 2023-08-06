@@ -73,7 +73,7 @@ def get_vehicle_input():
     model = input("Enter the model: ")
     color = input("Enter the color: ")
     year = get_integer_input("Enter the year: ")
-    mileage = get_integer_input("Enter the mileage: ")
+    mileage = input("Enter the mileage: ")
     return make, model, color, year, mileage
 
 # 3. Implement user interface for interacting with the inventory: adding, 
