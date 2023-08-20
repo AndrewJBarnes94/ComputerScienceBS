@@ -9,13 +9,11 @@ public class Module1CT {
         city = "St. Petersburg";
         zipcode = "12345";
 
-        System.out.println("");
         System.out.println("First Name: " + first_name);
         System.out.println("Last Name: " + last_name);
         System.out.println("Street Address: " + street_address);
         System.out.println("City: " + city);
         System.out.println("Zipcode: " + zipcode);
-        System.out.println("");
         
     }
 }
