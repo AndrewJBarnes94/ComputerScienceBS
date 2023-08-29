@@ -1,6 +1,6 @@
 ###################################################################################
-# Module 2 Critical Thinking Assignment for Computer Science Fundamentals
-# Course: CSC200
+# Module 2 Critical Thinking Assignment 
+# Course: CSC200-1 (Computer Science Fundamentals)
 # Author: Andrew Barnes
 ###################################################################################
 # Pseudocode for the Python program to perform basic mathematical operations
