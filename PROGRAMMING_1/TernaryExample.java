@@ -1,7 +1,7 @@
 public class TernaryExample {
 
     public static String getUsername(User user) {
-        return (user != null) ? user.getName() : "Guest";
+        return (user != null) ? user.getName() : "Guest";   // <--- Ternary Operator Example Here
     }
 
     public static void main(String[] args) {
