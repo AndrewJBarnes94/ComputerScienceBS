@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Shoe 1 -->
+    <div class="product" id="shoe1">
+        <h2>Running Shoes</h2>
+        <p>Perfect for athletes and fitness enthusiasts!</p>
+        <p>Price: $120.00</p>
+        <button class="button" onclick="purchaseProduct('Running Shoes')">Buy Now</button>
+    </div>
+
+    <!-- Shoe 2 -->
+    <div class="product" id="shoe2">
+        <h2>Formal Shoes</h2>
+        <p>Elegant design for formal occasions.</p>
+        <p>Price: $80.00</p>
+        <button class="button" onclick="purchaseProduct('Formal Shoes')">Buy Now</button>
+    </div>
+
+    <!-- Shoe 3 -->
+    <div class="product" id="shoe3">
+        <h2>Casual Sneakers</h2>
+        <p>Comfortable and stylish for everyday use.</p>
+        <p>Price: $65.00</p>
+        <button class="button" onclick="purchaseProduct('Casual Sneakers')">Buy Now</button>
+    </div>
+
+    <script>
+        // JavaScript for functionality
+        function purchaseProduct(shoeType) {
+            alert('Thank you for purchasing the ' + shoeType + '!');
+        }
+    </script>
+</body>
+
+</html>
