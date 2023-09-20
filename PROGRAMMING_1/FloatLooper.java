@@ -25,7 +25,7 @@ public class FloatLooper {
 
                 count++;
             } catch (java.util.InputMismatchException e) {
-                System.out.println("Invalid input. Please enter a valid floating-point number.");
+                System.out.println("Invalid input. Please enter floating-point number.");
                 scanner.nextLine(); // Consume the invalid input
             }
         }

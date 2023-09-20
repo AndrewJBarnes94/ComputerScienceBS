@@ -3,22 +3,22 @@ import java.util.*;
 public class DNASequencer {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+            // Get the DNA sequence from the user
+            System.out.println("Enter the DNA sequence (using A, T, C, and G):");
+            String dnaSequence = scanner.nextLine();
 
-        // Get the DNA sequence from the user
-        System.out.println("Enter the DNA sequence (using A, T, C, and G):");
-        String dnaSequence = scanner.nextLine();
-
-        // Validate the sequence
-        if (isValidDNASequence(dnaSequence)) {
-            // Convert the sequence to an array and print
-            char[] dnaArray = dnaSequence.toCharArray();
-            System.out.println("DNA sequence stored: " + Arrays.toString(dnaArray));
-            
-            // Count the occurrences of each base
-            countBases(dnaArray);
-        } else {
-            System.out.println("Invalid DNA sequence!");
+            // Validate the sequence
+            if (isValidDNASequence(dnaSequence)) {
+                // Convert the sequence to an array and print
+                char[] dnaArray = dnaSequence.toCharArray();
+                System.out.println("DNA sequence stored: " + Arrays.toString(dnaArray));
+                
+                // Count the occurrences of each base
+                countBases(dnaArray);
+            } else {
+                System.out.println("Invalid DNA sequence!");
+            }
         }
     }
 
