@@ -3,34 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Andrew's Favorite Things</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            background-color: #26db20;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
             text-align: center;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #444;
+        }
+
+        ul, ol {
+            text-align: left;
+            margin-left: 40px;
+            padding-left: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
-    <h1>Andrew Barnes</h1>
-    <p><a href="https://www.shelfwish.com">Link to Shelfwish</a></p>
-    
-    <h2>Ordered List: </h2>
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ol>
-
-    <h2>Unordered List: </h2>
-    <ul>
-        <li>Thing A</li>
-        <li>Thing B</li>
-        <li>Thing C</li>
-        <li>Thing D</li>
-    </ul>
-
-    <h2>Favorite Picture:</h2>
-    <img src="https://wallpapercave.com/wp/u08hMMY.jpg" width="300">
+    <div class="container">
+        <h1>Andrew's Favorite Things</h1>
+        <p>My favorite website is <a href="https://www.nasa.gov/">NASA</a></p>
+        <h2>Pizza Toppings | Ordered List:</h2>
+        <ol>
+            <li>Cheese</li>
+            <li>Pepperoni</li>
+            <li>Pineapple</li>
+            <li>Onions</li>
+        </ol>
+        <h2>Burrito Ingredients | Unordered List:</h2>
+        <ul>
+            <li>Carne Asada</li>
+            <li>Black Beans</li>
+            <li>White Rice</li>
+            <li>Hot Salsa</li>
+        </ul>
+        <h2>Favorite Picture:</h2>
+        <img src="https://wallpapercave.com/wp/u08hMMY.jpg" alt="Favorite Picture">
+    </div>
 </body>
 </html>
