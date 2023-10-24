@@ -4,12 +4,12 @@
 long countRectangles(int width, int height) {
     std::vector<std::vector<long>> rectanglesCountMatrix(width + 1, std::vector<long>(height + 1, 0));
 
-    for (int width_point = 1; width_point <= width; ++width_point) {
-        for (int height_point = 1; height_point <= height; ++height_point) {
-            rectanglesCountMatrix[width_point][height_point] = (width_point * height_point) + rectanglesCountMatrix[width_point - 1][height_point]
-            + rectanglesCountMatrix[width_point][height_point - 1] - rectanglesCountMatrix[width_point - 1][height_point - 1];
+    for (int width_position = 1; width_position <= width; ++width_position) {
+        for (int height_position = 1; height_position <= height; ++height_position) {
+            rectanglesCountMatrix[width_position][height_position] = (width_position * height_position) + rectanglesCountMatrix[width_position - 1][height_position]
+            + rectanglesCountMatrix[width_position][height_position - 1] - rectanglesCountMatrix[width_position - 1][height_position - 1];
             
-            std::cout << rectanglesCountMatrix[width_point][height_point] << " " << std::endl;
+            std::cout << rectanglesCountMatrix[width_position][height_position] << " " << std::endl;
         }
     }
 

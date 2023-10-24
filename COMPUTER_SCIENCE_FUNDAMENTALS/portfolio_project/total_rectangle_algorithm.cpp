@@ -1,6 +1,7 @@
 /*
 
 TOTAL RECTANGLES ALGORITHM
+Author: Andrew Barnes
 
     1. Make sure input is valid:
         a. If rectangle_width or rectangle height are <= 0
@@ -12,7 +13,7 @@ TOTAL RECTANGLES ALGORITHM
                 1. Add the product of (rectangle_width - width_position + 1) * (rectangle_height - height_position + 1)
                    to the count variable
     4. Return the count variable value as the total number of rectangles
-    
+
 */
 
 #include <iostream>
