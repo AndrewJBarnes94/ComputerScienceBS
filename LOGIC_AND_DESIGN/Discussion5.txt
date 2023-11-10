@@ -1,0 +1,13 @@
+Procedure ProcedureX(x)
+    Print "The variable x = " + x
+EndProcedure
+
+variableForProcedure = "Hi"
+Call ProcedureX(variableForProcedure)
+
+
+
+Array myNums[5]
+variableForArray = 13
+myNums[0] = variableForArray
+Print myNums[0]

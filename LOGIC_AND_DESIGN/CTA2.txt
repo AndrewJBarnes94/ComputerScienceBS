@@ -1,0 +1,17 @@
+
+OUTPUT 'Enter a letter'
+letter ← USERINPUT  // user input assigned to variable
+
+IF (letter >= 'A' AND letter <= 'E') THEN
+    OUTPUT 'sunny'
+ELSE IF (letter >= 'J' AND letter <= 'P') THEN
+    OUTPUT 'cloudy'
+ELSE IF (letter >= 'Q' AND letter <= 'X') THEN
+    OUTPUT 'rainy'
+ELSE
+    OUTPUT 'Letter is not a valid option.'
+END IF
+
+
+
+

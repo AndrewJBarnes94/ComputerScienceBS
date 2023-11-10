@@ -1,0 +1,21 @@
+START
+    1. Prepare variables:
+            Declare and initialize target_word as a string
+            Declare and initialize middle_page as integer
+            Declare minimum_page as an integer
+            Declare maximum_page as an integer
+
+    2. Go to middle_page
+            Is target_word on the page?
+                If yes:
+                    target_word has been found
+                    STOP
+                If no:
+                    If target_word comes before middle_page:
+                        Set maximum_page to middle_page
+                        Set minimum_page to lowest uncheck page value
+                    If target_word comes after middle_page:
+                        Set minimum_page to middle_page
+                        Set maximum_page to highest unchecked page value
+                    Set middle_page to minimum_page + ((maximum_page - minimum_page) / 2)
+                        Go back to step 2
