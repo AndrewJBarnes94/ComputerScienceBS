@@ -1,0 +1,66 @@
+Class BaseballGame
+    private String team1Name
+    private String team2Name
+    private Int team1Score
+    private Int team2Score
+
+    // Constructor
+    Public BaseballGame(String newTeam1Name, String newTeam2Name)
+        team1Name = newTeam1Name
+        team2Name = newTeam2Name
+        team1Score = 0
+        team2Score = 0
+
+    // GETTERS
+    METHOD public String getTeam1Name()
+        return team1Name
+    END METHOD
+
+    METHOD public String getTeam2Name()
+        return team2Name
+    END METHOD
+
+    METHOD public Int getTeam1Score()
+        return team1Score
+    END METHOD
+
+    METHOD public Int getTeam2Score()
+        return team2Score
+    END METHOD
+
+    // SETTERS
+    METHOD public void setTeam1Name(String name)
+        team1Name = name
+    END METHOD
+
+    METHOD public void setTeam2Name(String name)
+        team2Name = name
+    END METHOD
+
+    METHOD public void setTeam1Score(Int score)
+        team1Score = score
+    END METHOD
+
+    METHOD public void setTeam2Score(Int score)
+        team2Score = score
+    END METHOD
+
+    // Determine Results
+    METHOD public String results()
+        return team1Name + ": " + team1Score + " " + team2Name + ": " + team2Score
+    END METHOD
+
+    // Determine Winner
+    METHOD public String winner()
+        IF team1Score > team2Score THEN
+            return team1Name
+        ELSE IF team1Score < team2Score THEN
+            return team2Name
+        ELSE
+            return "Draw"
+        END IF
+    END METHOD
+
+End Class
+
+

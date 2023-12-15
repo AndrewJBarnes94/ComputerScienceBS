@@ -1,0 +1,16 @@
+START
+int sales = 0
+while (true) {
+    int user_num = input("Enter quantity of items sold: ")
+    if (user_num == -1) {
+        break
+    }
+    sales = user_num * 10
+    if (sales >= 100) {
+        print(sales + " is 100 or greater.")
+        break
+    }
+}
+END
+
+

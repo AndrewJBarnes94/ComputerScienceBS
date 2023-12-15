@@ -1,0 +1,26 @@
+num overallCondition
+num interiorCondition
+num exteriorCondition
+num mechanicalCondition
+
+void setCondition(num interior, num exterior, num mechanical)
+        if (interior < 1 or interior > 5)
+            Exception("Interior condition must be between 1 and 5.")
+        end if
+        if (exterior < 1 or exterior > 5)
+            Exception("Exterior condition must be between 1 and 5.")
+        end if
+        if (mechanical < 1 or mechanical > 5)
+            Exception("Mechanical condition must be between 1 and 5.")
+        end if
+
+        interiorCondition = interior
+        exteriorCondition = exterior
+        mechanicalCondition = mechanical
+        overallCondition = (interior + exterior + mechanical) / 3
+end setCondition
+
+num getOverallCondition()
+    return overallCondition
+end getOverallCondition
+

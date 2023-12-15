@@ -1,0 +1,58 @@
+1 total <- 0  (set total to 0)
+2 FOR EACH number IN list
+3 {
+4     IF(EVEN(number))
+5     {
+6           total <-total + number  (Set total to the current total + number)
+7     }
+8 }
+9 DISPLAY(total)
+
+
+total <- 0 (set total to 0)
+FOR EACH number IN list
+{
+      IF(EVEN(number))
+      {
+            total <- total + number (Set total to the current total + number)
+      }
+      ELSE
+      {
+            total <- total - number (Set total to the current total - number)
+      }
+}
+
+
+DISPLAY 'Enter letters (no spaces):'
+letters <- USERINPUT
+
+FOR EACH letter IN letters
+{
+      
+      IF NOT letter IS ALPHABET
+      {
+            DISPLAY 'Error: ' + letter + ' is not a letter.'
+      }
+      
+      letter <- UPPERCASE(letter)
+      
+      IF (letter >= 'A' AND letter <= 'E')
+      {
+            DISPLAY 'sunny'
+      }
+
+      ELSE IF (letter >= 'J' AND letter <= 'P')
+      {
+            DISPLAY 'cloudy'
+      }
+
+      ELSE IF(letter >= 'Q' AND letter <= 'X')
+      {
+            DISPLAY 'rainy'
+      }
+      
+      ELSE
+      {
+            DISPLAY 'N/A'
+      }
+}
