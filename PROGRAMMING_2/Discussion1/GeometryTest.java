@@ -1,4 +1,4 @@
-package PROGRAMMING_2;
+package PROGRAMMING_2.Discussion1;
 
 public class GeometryTest {
     public static void main(String[] args) {

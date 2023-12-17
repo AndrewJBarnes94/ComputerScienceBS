@@ -1,4 +1,4 @@
-package PROGRAMMING_2;
+package PROGRAMMING_2.Discussion1;
 
 public class Rectangle extends Shape {
     private double length;
