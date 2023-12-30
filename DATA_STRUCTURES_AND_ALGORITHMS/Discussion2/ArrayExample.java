@@ -6,6 +6,7 @@ public class ArrayExample {
         // System.out.println(numbers[1]);
 
         double[] dailyTemperatures = new double[24];
+        System.out.println(dailyTemperatures);
     }
 }
 
