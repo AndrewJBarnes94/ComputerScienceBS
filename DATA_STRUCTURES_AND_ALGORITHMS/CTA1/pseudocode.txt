@@ -1,0 +1,53 @@
+Class ShoppingCart {
+    customerID: Integer
+    items: Item List
+
+    ShoppingCart(customerID) {
+        this.customerID = customerID
+        this.items = new List()
+    }
+    
+    addItem(itemName, cost) {
+        item = new Item(itemName, cost)
+        items.add(item)
+    }
+    
+    removeItem(itemName) {
+        for each item in items {
+            if (item.name == itemName) {
+                items.remove(item)
+                break
+            }
+        }
+    }
+
+    getItemCount() {
+        return items.size()
+    }
+
+    getTotal() {
+        total = 0
+        for each item in item{
+            total += item.cost
+        }
+        return total
+    }
+
+    isEmpty() {
+        return items.isEmpty()
+    }
+
+    clear() {
+        items.clear()
+    }
+}
+
+Class Item {
+    name: String
+    cost: Double
+
+    Item(name, cost) {
+        this.name = name
+        this.cost = cost
+    }
+}
