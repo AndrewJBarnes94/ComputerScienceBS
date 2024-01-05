@@ -32,14 +32,15 @@ Class ShoppingCart {
         }
         return total
     }
-
+    
+    clear() {
+        items.clear()
+    }
+    
     isEmpty() {
         return items.isEmpty()
     }
 
-    clear() {
-        items.clear()
-    }
 }
 
 Class Item {
