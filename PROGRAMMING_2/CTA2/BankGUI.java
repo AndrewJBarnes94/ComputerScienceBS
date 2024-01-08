@@ -10,7 +10,7 @@ public class BankGUI extends JFrame{
     private JTextField amountField;
     private JButton depositButton, withdrawButton;
     
-    public BankGUI() { s
+    public BankGUI() {
         account = new BankAccount(0);
         JPanel panel = new JPanel();
         

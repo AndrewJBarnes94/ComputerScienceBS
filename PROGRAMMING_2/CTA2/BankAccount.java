@@ -7,7 +7,7 @@ public class BankAccount {
         balance = startBalance;
     }
 
-    public void deposit(double amount) {
+    public void deposit(double amount) { 
         balance += amount;
     }
 
