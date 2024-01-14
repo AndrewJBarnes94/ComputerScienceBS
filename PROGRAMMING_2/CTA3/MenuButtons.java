@@ -14,57 +14,57 @@ import java.util.Random;
 
 public class MenuButtons extends Application {
     private static final String DATE_TIME_FORMAT = "yyyy/MM/dd HH:mm:ss";
-    private static final String LOG_FILE_PATH = "./log.txt";
-    private static final String BACKGROUND_COLOR_STYLE_FORMAT = "-fx-background-color: rgb(0, %d, 0);";
+    private static final String LOG_FILE_PATH = "log.txt";
+    private static final String BACKGROUND_COLOR = "-fx-background-color: rgb(0, %d, 0);";
     private static final int WINDOW_WIDTH = 500;
-    private static final int WINDOW_HEIGHT = 300;
+    private static final int WINDOW_HEIGHT = 150;
 
-    private TextArea textArea;
-    private VBox rootLayout;
+    private TextField textBox;
+    private VBox verticalLayout;
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Menu Example");
+        primaryStage.setTitle("CTA3 Menu Buttons");
 
         initializeComponents();
-        Scene scene = new Scene(rootLayout, WINDOW_WIDTH, WINDOW_HEIGHT);
+        Scene scene = new Scene(verticalLayout, WINDOW_WIDTH, WINDOW_HEIGHT);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
 
     private void initializeComponents() {
-        textArea = new TextArea();
-        textArea.setEditable(false);
+        textBox = new TextField();
+        textBox.setEditable(false);
 
-        MenuItem menuItem1 = new MenuItem("Display Date & Time");
-        menuItem1.setOnAction(event -> displayDateTime());
+        MenuItem menuButton1 = new MenuItem("Display Date & Time");
+        menuButton1.setOnAction(event -> displayDateTime());
 
-        MenuItem menuItem2 = new MenuItem("Save to 'log.txt'");
-        menuItem2.setOnAction(event -> saveToLogFile());
+        MenuItem menuButton2 = new MenuItem("Save to 'log.txt'");
+        menuButton2.setOnAction(event -> saveToLogFile());
 
-        MenuItem menuItem3 = new MenuItem("Change Background Color");
-        menuItem3.setOnAction(event -> changeBackgroundColor());
+        MenuItem menuButton3 = new MenuItem("Change Background Color");
+        menuButton3.setOnAction(event -> changeBackgroundColor());
 
-        MenuItem menuItem4 = new MenuItem("Exit");
-        menuItem4.setOnAction(event -> System.exit(0));
+        MenuItem menuButton4 = new MenuItem("Exit");
+        menuButton4.setOnAction(event -> System.exit(0));
 
-        MenuButton menuButton = new MenuButton("Options", null, menuItem1, menuItem2, menuItem3, menuItem4);
+        MenuButton mainMenuButton = new MenuButton("Menu", null, menuButton1, menuButton2, menuButton3, menuButton4);
 
-        rootLayout = new VBox(10, menuButton, textArea);
-        rootLayout.setPadding(new Insets(10));
-        rootLayout.setStyle(String.format(BACKGROUND_COLOR_STYLE_FORMAT, 255)); // Default background color
+        verticalLayout = new VBox(10, mainMenuButton, textBox);
+        verticalLayout.setPadding(new Insets(10));
+        verticalLayout.setStyle(String.format(BACKGROUND_COLOR, 255));
     }
 
     private void displayDateTime() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern(DATE_TIME_FORMAT);
         LocalDateTime now = LocalDateTime.now();
-        textArea.setText(dtf.format(now));
+        textBox.setText(dtf.format(now));
     }
 
     private void saveToLogFile() {
         try (FileWriter writer = new FileWriter(LOG_FILE_PATH)) {
-            writer.write(textArea.getText());
-            showAlert("Success", "Log saved successfully to 'log.txt'");
+            writer.write(textBox.getText());
+            showAlert("Success", "Log saved to 'log.txt'");
         } catch (IOException e) {
             showAlert("Error", "Failed to save the log.");
         }
@@ -73,7 +73,7 @@ public class MenuButtons extends Application {
     private void changeBackgroundColor() {
         Random random = new Random();
         int greenValue = random.nextInt(256);
-        rootLayout.setStyle(String.format(BACKGROUND_COLOR_STYLE_FORMAT, greenValue));
+        verticalLayout.setStyle(String.format(BACKGROUND_COLOR, greenValue));
     }
 
     private void showAlert(String title, String message) {
