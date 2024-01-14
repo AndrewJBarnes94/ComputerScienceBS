@@ -15,169 +15,172 @@
             "name": "AutomobileInventory",
             "request": "launch",
             "mainClass": "AutomobileInventory",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "BinarySearchExample",
             "request": "launch",
             "mainClass": "BinarySearchExample",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "ArrayBagDemo1",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.BookExamples.ArrayBagDemo1",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "ArrayExample",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Discussion2.ArrayExample",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "ArrayListExample",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Discussion2.ArrayListExample",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "StringReverse",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Discussion4.StringReverse",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "ImplementingClass",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Examples.ImplementingClass",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "DNASequencer",
             "request": "launch",
             "mainClass": "DNASequencer",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "FloatLooper",
             "request": "launch",
             "mainClass": "FloatLooper",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "Module1CT",
             "request": "launch",
             "mainClass": "Module1CT",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "OperationFactory",
             "request": "launch",
             "mainClass": "OperationFactory",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "TestBankAccounts",
             "request": "launch",
             "mainClass": "PROGRAMMING_2.CTA1.TestBankAccounts",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "BankGUI",
             "request": "launch",
             "mainClass": "PROGRAMMING_2.CTA2.BankGUI",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "MenuButtons",
             "request": "launch",
             "mainClass": "PROGRAMMING_2.CTA3.MenuButtons",
-            "projectName": "ComputerScienceBS_2be02f42",
-            "vmArgs": "--module-path C:/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml"
+            "projectName": "ComputerScienceBS_b71e9e67",
+            // Linux Path
+            "vmArgs": "--module-path /home/ajbarnes/Dependencies/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml"
+            //Windows Path
+            //"vmArgs": "--module-path C:/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
             "name": "GeometryTest",
             "request": "launch",
             "mainClass": "PROGRAMMING_2.Discussion1.GeometryTest",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "SimpleGUI",
             "request": "launch",
             "mainClass": "PROGRAMMING_2.Discussion2.SimpleGUI",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "LayoutManager",
             "request": "launch",
             "mainClass": "PROGRAMMING_2.Discussion3.LayoutManager",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "RobotFactory",
             "request": "launch",
             "mainClass": "RobotFactory",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "StringUtils",
             "request": "launch",
             "mainClass": "StringUtils",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "TaxWithholdingCalculator",
             "request": "launch",
             "mainClass": "TaxWithholdingCalculator",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "TemperatureTracker",
             "request": "launch",
             "mainClass": "TemperatureTracker",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "TernaryExample",
             "request": "launch",
             "mainClass": "TernaryExample",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         },
         {
             "type": "java",
             "name": "VideoCompressor",
             "request": "launch",
             "mainClass": "VideoCompressor",
-            "projectName": "ComputerScienceBS_2be02f42"
+            "projectName": "ComputerScienceBS_b71e9e67"
         }
     ]
 }
