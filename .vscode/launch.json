@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BigOh",
+            "request": "launch",
+            "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.CTA3.BigOh",
+            "projectName": "ComputerScienceBS_b71e9e67"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -114,10 +121,7 @@
             "request": "launch",
             "mainClass": "PROGRAMMING_2.CTA3.MenuButtons",
             "projectName": "ComputerScienceBS_b71e9e67",
-            // Linux Path
             "vmArgs": "--module-path /home/ajbarnes/Dependencies/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml"
-            //Windows Path
-            //"vmArgs": "--module-path C:/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
