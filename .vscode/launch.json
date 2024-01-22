@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Discussion5.Recursion",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "SpiralGridCoordinates",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.Discussion5.SpiralGridCoordinates",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "SpiralGridTraversal",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.Discussion5.SpiralGridTraversal",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "ForRecursion",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.Discussion5.ForRecursion",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveCount2",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.Discussion5.RecursiveCount2",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "InfixToPostfix",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.CTA4.InfixToPostfix",
