@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InfixToPostfix",
+            "request": "launch",
+            "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.CTA4.InfixToPostfix",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveSum",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.CTA5.RecursiveSum",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "ShapeArray",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.CTA4.ShapeArray",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "RecursiveCount",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Discussion5.RecursiveCount",
