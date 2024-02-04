@@ -16,6 +16,6 @@ public class SelectionSort {
             Student temporary = list.get(minimumIndex);
             list.set(minimumIndex, list.get(i));
             list.set(i, temporary);
-        }
+        }a
     }
 }
