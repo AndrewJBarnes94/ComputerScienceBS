@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraySortCheckTest",
+            "request": "launch",
+            "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.CTA6.ArraySortCheckTest",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "ArrayPortionBackwards",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.CTA5.Exercise5.ArrayPortionBackwards",
