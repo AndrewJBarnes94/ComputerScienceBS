@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentManagement",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_2.PortfolioProject.StudentManagement",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "EasyQueue",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.Discussion8.EasyQueue",
