@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DataStructuresAndAlgorithmsPortfolioProject",
+            "request": "launch",
+            "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.PortfolioProject.DataStructuresAndAlgorithmsPortfolioProject",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "PortfolioProject",
+            "request": "launch",
+            "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.PortfolioProject.PortfolioProject",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "DATA_STRUCTURES_AND_ALGORITHMS.PortfolioProject.Main",
