@@ -10,9 +10,9 @@
 
          /* Begin Step 2: Define the geometry and store it in buffer objects */
          var vertices = [
-            0.0, 1.0, 
-            -1.0, -1.0, 
-            1.0, -1.0
+            0.0, 0.7, 
+            -1.0, -0.2, 
+            0.5, -1.0
          ];
          
          // Sierpinski Gasket Algorithm
@@ -39,7 +39,7 @@
          }
 
          // Generate vertices for Sierpinski Gasket of depth 7
-         vertices = generateSierpinski(vertices, 7);
+         vertices = generateSierpinski(vertices, 5);
 
          var vertex_buffer = gl.createBuffer();
          gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer);
