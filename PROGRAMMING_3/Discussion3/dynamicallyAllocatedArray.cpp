@@ -10,7 +10,7 @@ int main() {
     int* newArray = new int[sizeOfArray];
 
     for (int i=0; i<sizeOfArray; ++i) {
-        newArray[i] = i + i;
+        newArray[i] = i + i; // Random operation for element placeholder within the array
     }
 
     for (int i=0; i<sizeOfArray; ++i) {

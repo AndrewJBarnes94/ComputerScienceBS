@@ -14,7 +14,15 @@ int main() {
 
     cout << "Array Base Address: " << p << endl;
 
-    for (int )
+    for (int i=0; i<3; i++) {
+        for (int j=0; j<2; j++) {
+            for (int k=0; k<1; k++) {
+                cout << "Array[" << i << "][" << j << "][" << k << "]: "
+                << &((*p)[j][k]) << " ---> " << (*p)[j][k] << endl;
+            }
+        }
+        p++;
+    }
 
     return 0;
 }
