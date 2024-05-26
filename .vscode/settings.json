@@ -40,7 +40,13 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "ctime": "cpp",
+        "ratio": "cpp",
+        "shared_mutex": "cpp",
+        "thread": "cpp"
     },
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
