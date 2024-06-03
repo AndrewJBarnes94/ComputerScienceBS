@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GuessANumber",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_3.Discussion7.GuessANumber",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "MessyCodeExample",
             "request": "launch",
             "mainClass": "MessyCodeExample",
