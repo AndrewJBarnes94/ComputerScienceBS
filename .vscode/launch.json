@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sensors",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_3.Discussion8.Sensors",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_3.Discussion8.Main",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
+            "name": "CustomException",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_3.Discussion8.CustomException",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "GuessANumber",
             "request": "launch",
             "mainClass": "PROGRAMMING_3.Discussion7.GuessANumber",
