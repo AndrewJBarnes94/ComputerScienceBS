@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PortfolioProject",
+            "request": "launch",
+            "mainClass": "PROGRAMMING_3.Portfolio_Project.PortfolioProject",
+            "projectName": "ComputerScienceBS_2be02f42"
+        },
+        {
+            "type": "java",
             "name": "Sensors",
             "request": "launch",
             "mainClass": "PROGRAMMING_3.Discussion8.Sensors",
